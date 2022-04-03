@@ -28,6 +28,16 @@
     "isolatedModules": true,
     "noEmit": true
   },
+  "workspaces": {
+    "nohoist": [
+      "webpack*",
+      "webpack*/**",
+      "**/webpack-dev-server",
+     "**/webpack-cli",
+     "**/webpack*",
+     "**/webpack*/*"
+    ]
+  },
   "include": [
     "src"
   ],
